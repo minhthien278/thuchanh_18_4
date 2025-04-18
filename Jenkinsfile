@@ -10,7 +10,7 @@ pipeline {
 
     environment {
         REPO_URL = 'https://github.com/minhthien278/thuchanh_18_4.git'
-        BRANCH_NAME = "${params.BRANCH_NAME}"
+        BRANCH_NAME = "${params.main}"
         IMAGE_NAME = 'ntquan87/22120341_setup'
     }
 
